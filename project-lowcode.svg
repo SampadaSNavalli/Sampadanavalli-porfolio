@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lowcodeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+    <linearGradient id="widgetGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="320" rx="16" fill="url(#lowcodeBg)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="500" height="46" rx="16" fill="rgba(255, 255, 255, 0.05)" />
+  <rect x="0" y="26" width="500" height="20" fill="rgba(255, 255, 255, 0.05)" />
+  <circle cx="28" cy="23" r="5" fill="#ef4444" />
+  <circle cx="44" cy="23" r="5" fill="#f59e0b" />
+  <circle cx="60" cy="23" r="5" fill="#10b981" />
+  <text x="85" y="27" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Enterprise Low-Code App Builder</text>
+  <rect x="360" y="12" width="120" height="22" rx="11" fill="rgba(6, 182, 212, 0.2)" stroke="#06b6d4" stroke-width="1" />
+  <text x="420" y="27" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" text-anchor="middle">Visual Canvas v3.2</text>
+
+  <!-- Left Sidebar (Draggable Components) -->
+  <g transform="translate(18, 58)">
+    <rect x="0" y="0" width="105" height="248" rx="10" fill="rgba(255, 255, 255, 0.03)" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="12" y="22" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700">COMPONENTS</text>
+    
+    <!-- Widget 1 -->
+    <rect x="10" y="34" width="85" height="26" rx="6" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" />
+    <text x="20" y="50" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">⊞ Form Grid</text>
+
+    <!-- Widget 2 -->
+    <rect x="10" y="68" width="85" height="26" rx="6" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" />
+    <text x="20" y="84" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">☰ Data Table</text>
+
+    <!-- Widget 3 -->
+    <rect x="10" y="102" width="85" height="26" rx="6" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" />
+    <text x="20" y="118" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">📊 Chart Node</text>
+
+    <!-- Widget 4 -->
+    <rect x="10" y="136" width="85" height="26" rx="6" fill="rgba(2, 132, 199, 0.2)" stroke="#0284c7" stroke-width="1" />
+    <text x="20" y="152" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600">⚡ Action Button</text>
+  </g>
+
+  <!-- Center Canvas (Visual Builder) -->
+  <g transform="translate(135, 58)">
+    <rect x="0" y="0" width="345" height="248" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255, 255, 255, 0.08)" />
+    
+    <!-- Canvas Top Controls -->
+    <rect x="12" y="12" width="100" height="20" rx="4" fill="rgba(255, 255, 255, 0.06)" />
+    <text x="62" y="25" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" text-anchor="middle">Form: EmployeeOnboard</text>
+    <rect x="250" y="12" width="82" height="20" rx="10" fill="url(#widgetGrad)" />
+    <text x="291" y="25" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" text-anchor="middle">Preview Live</text>
+
+    <!-- Form Canvas Preview -->
+    <g transform="translate(12, 42)">
+      <rect x="0" y="0" width="320" height="194" rx="8" fill="rgba(255, 255, 255, 0.02)" stroke="rgba(255, 255, 255, 0.06)" />
+      
+      <!-- Input 1 -->
+      <text x="14" y="24" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Full Name *</text>
+      <rect x="14" y="30" width="138" height="24" rx="4" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" />
+      <text x="22" y="45" fill="#64748b" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Enter full name</text>
+
+      <!-- Input 2 -->
+      <text x="168" y="24" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Corporate Email *</text>
+      <rect x="168" y="30" width="138" height="24" rx="4" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" />
+      <text x="176" y="45" fill="#64748b" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">name@company.com</text>
+
+      <!-- Input 3 -->
+      <text x="14" y="72" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Department Assignment</text>
+      <rect x="14" y="78" width="292" height="24" rx="4" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.15)" />
+      <text x="22" y="93" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Engineering / Product Design ▾</text>
+
+      <!-- Action Button inside Canvas -->
+      <rect x="14" y="120" width="120" height="28" rx="6" fill="#0284c7" />
+      <text x="74" y="137" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="middle">Submit Workflow</text>
+      
+      <!-- Drag Guideline overlay -->
+      <rect x="150" y="120" width="156" height="28" rx="6" fill="rgba(2, 132, 199, 0.15)" stroke="#0284c7" stroke-dasharray="3 3" />
+      <text x="228" y="137" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" text-anchor="middle">+ Drop Component Here</text>
+    </g>
+  </g>
+</svg>
