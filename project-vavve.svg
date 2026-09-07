@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vavveBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="320" rx="16" fill="url(#vavveBg)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="500" height="46" rx="16" fill="rgba(255, 255, 255, 0.05)" />
+  <rect x="0" y="26" width="500" height="20" fill="rgba(255, 255, 255, 0.05)" />
+  <circle cx="28" cy="23" r="5" fill="#ef4444" />
+  <circle cx="44" cy="23" r="5" fill="#f59e0b" />
+  <circle cx="60" cy="23" r="5" fill="#10b981" />
+  <text x="85" y="27" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">Multi-Merchant Business &amp; VT Payments</text>
+  <rect x="365" y="12" width="115" height="22" rx="11" fill="rgba(2, 132, 199, 0.2)" stroke="#0284c7" stroke-width="1" />
+  <text x="422" y="27" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" text-anchor="middle">Vavve Ecosystem</text>
+
+  <!-- Metric Badges -->
+  <g transform="translate(20, 60)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="145" height="60" rx="8" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="12" y="20" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Active Merchants</text>
+    <text x="12" y="42" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">1,240+</text>
+    <text x="85" y="42" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">↑ 18.5%</text>
+
+    <!-- Card 2 -->
+    <rect x="157" y="0" width="145" height="60" rx="8" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="12" y="20" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Coupons &amp; Gift Cards</text>
+    <text x="12" y="42" fill="#0284c7" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">45.2K</text>
+    <text x="85" y="42" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Redeemed</text>
+
+    <!-- Card 3 -->
+    <rect x="315" y="0" width="145" height="60" rx="8" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="12" y="20" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">VT Transactions</text>
+    <text x="12" y="42" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">$8.9M</text>
+    <text x="85" y="42" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Processed</text>
+  </g>
+
+  <!-- Operations & Sales Graph Preview -->
+  <g transform="translate(20, 134)">
+    <rect x="0" y="0" width="460" height="162" rx="10" fill="rgba(15, 23, 42, 0.75)" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="16" y="24" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700">Merchant Sales &amp; Order Management Flow</text>
+    <text x="16" y="38" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Real-time revenue settlement &amp; invoice tracking</text>
+
+    <!-- Visual Area Graph in Sky Blue & Cyan -->
+    <path d="M20 130 Q80 70 140 100 T260 50 T380 70 T440 35 L440 140 L20 140 Z" fill="url(#chartGrad)" />
+    <path d="M20 130 Q80 70 140 100 T260 50 T380 70 T440 35" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+    
+    <!-- Data points -->
+    <circle cx="140" cy="100" r="4" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="260" cy="50" r="4" fill="#0284c7" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="380" cy="70" r="4" fill="#0ea5e9" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="440" cy="35" r="4" fill="#10b981" stroke="#ffffff" stroke-width="1.5" />
+  </g>
+</svg>
