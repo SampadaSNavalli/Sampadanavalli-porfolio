@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bpmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="nodeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="nodeGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="320" rx="16" fill="url(#bpmBg)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="500" height="50" rx="16" fill="rgba(255, 255, 255, 0.05)" />
+  <rect x="0" y="30" width="500" height="20" fill="rgba(255, 255, 255, 0.05)" />
+  <circle cx="28" cy="25" r="5" fill="#ef4444" />
+  <circle cx="44" cy="25" r="5" fill="#f59e0b" />
+  <circle cx="60" cy="25" r="5" fill="#10b981" />
+  <text x="85" y="29" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700">BPM Workflow &amp; Approval Engine</text>
+  <rect x="375" y="14" width="105" height="22" rx="11" fill="rgba(2, 132, 199, 0.2)" stroke="#0284c7" stroke-width="1" />
+  <text x="427" y="29" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="600" text-anchor="middle">SLA: 99.8% Active</text>
+
+  <!-- Canvas Grid Pattern -->
+  <g opacity="0.08">
+    <line x1="50" y1="50" x2="50" y2="320" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="150" y1="50" x2="150" y2="320" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="250" y1="50" x2="250" y2="320" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="350" y1="50" x2="350" y2="320" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="450" y1="50" x2="450" y2="320" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Connecting Lines -->
+  <path d="M140 120 L180 120" stroke="#0284c7" stroke-width="2" />
+  <path d="M300 120 L340 120" stroke="#06b6d4" stroke-width="2" />
+  <path d="M240 152 L240 190" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 4" />
+
+  <!-- Node 1: Request Created -->
+  <g transform="translate(30, 85)">
+    <rect x="0" y="0" width="115" height="70" rx="12" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(2, 132, 199, 0.5)" stroke-width="1.2" />
+    <rect x="10" y="10" width="22" height="22" rx="6" fill="url(#nodeGrad1)" />
+    <text x="17" y="24" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">1</text>
+    <text x="38" y="24" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700">Initiate</text>
+    <text x="10" y="44" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Form submission</text>
+    <text x="10" y="58" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600">Actioner Stage</text>
+  </g>
+
+  <!-- Node 2: Multi-Level Approval -->
+  <g transform="translate(180, 85)">
+    <rect x="0" y="0" width="125" height="70" rx="12" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(6, 182, 212, 0.5)" stroke-width="1.2" />
+    <rect x="10" y="10" width="22" height="22" rx="6" fill="url(#nodeGrad2)" />
+    <text x="16" y="24" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">2</text>
+    <text x="38" y="24" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700">Approver Gate</text>
+    <text x="10" y="44" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">Role-based signoff</text>
+    <text x="10" y="58" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600">4hr SLA Clock</text>
+  </g>
+
+  <!-- Node 3: Dispatch & Closure -->
+  <g transform="translate(340, 85)">
+    <rect x="0" y="0" width="130" height="70" rx="12" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(16, 185, 129, 0.5)" stroke-width="1.2" />
+    <rect x="10" y="10" width="22" height="22" rx="6" fill="url(#nodeGrad3)" />
+    <text x="16" y="24" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700">3</text>
+    <text x="38" y="24" fill="#e2e8f0" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700">Auto-Resolved</text>
+    <text x="10" y="44" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="8">ERP &amp; Ticket sync</text>
+    <text x="10" y="58" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="600">Complete ✓</text>
+  </g>
+
+  <!-- Bottom Analytics / SLA Panel -->
+  <g transform="translate(30, 190)">
+    <rect x="0" y="0" width="440" height="105" rx="12" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.08)" />
+    <text x="16" y="22" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700">Centralized SLA Compliance Monitor</text>
+    
+    <!-- Progress bar 1 -->
+    <text x="16" y="46" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">Finance Workflows (SLA Target &lt; 2hr)</text>
+    <text x="400" y="46" fill="#34d399" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="end">99.4%</text>
+    <rect x="16" y="52" width="380" height="6" rx="3" fill="rgba(255, 255, 255, 0.08)" />
+    <rect x="16" y="52" width="377" height="6" rx="3" fill="#10b981" />
+
+    <!-- Progress bar 2 -->
+    <text x="16" y="78" fill="#cbd5e1" font-family="'Plus Jakarta Sans', sans-serif" font-size="9">Procurement Operations (SLA Target &lt; 8hr)</text>
+    <text x="400" y="78" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" text-anchor="end">97.8%</text>
+    <rect x="16" y="84" width="380" height="6" rx="3" fill="rgba(255, 255, 255, 0.08)" />
+    <rect x="16" y="84" width="371" height="6" rx="3" fill="#0284c7" />
+  </g>
+</svg>
