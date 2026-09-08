@@ -200,7 +200,7 @@ body {
   color: var(--accent-sky);
   font-weight: 300;
   animation: blinkCursor 0.8s infinite;
-  margin-left: 3px;
+  /* margin-left: 3px; */
 }
 @keyframes blinkCursor {
   0%, 100% { opacity: 1; }
