@@ -26,8 +26,8 @@ function initTypingEffect() {
   const roles = [
     "UI/UX Designer",
     "Product Designer",
-    "Design System Specialist",
-    "Enterprise UX Architect"
+    "UX Strategist",
+    "Design Systems Designer",
   ];
 
   let roleIndex = 0;
